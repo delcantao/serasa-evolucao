@@ -1,214 +1,214 @@
-<!--
-*** Thanks for checking out the Best-README-Template. If you have a suggestion
-*** that would make this better, please fork the repo and create a pull request
-*** or simply open an issue with the tag "enhancement".
-*** Thanks again! Now go create something AMAZING! :D
--->
+#  <img src="https://www.thinkdata.com.br/wp-content/uploads/2021/03/logo-think-data.svg" width="40%">  
+# Overview do desenvolvimento do sistema Serasa de consultas
 
 
+### Consultas de distribuidor Serasa
 
-<!-- PROJECT SHIELDS -->
-<!--
-*** I'm using markdown "reference style" links for readability.
-*** Reference links are enclosed in brackets [ ] instead of parentheses ( ).
-*** See the bottom of this document for the declaration of the reference variables
-*** for contributors-url, forks-url, etc. This is an optional, concise syntax you may use.
-*** https://www.markdownguide.org/basic-syntax/#reference-style-links
--->
-[![Contributors][contributors-shield]][contributors-url]
-[![Forks][forks-shield]][forks-url]
-[![Stargazers][stars-shield]][stars-url]
-[![Issues][issues-shield]][issues-url]
-[![MIT License][license-shield]][license-url]
-[![LinkedIn][linkedin-shield]][linkedin-url]
+- [x] Creditbureau
+  - ✅ Integrado 
+  - ✅ ![100%](https://progress-bar.dev/100) | Ambiente - Produção  
+  - ✅ ![100%](https://progress-bar.dev/100) | Ambiente - Dev       
+  - ✅ ![100%](https://progress-bar.dev/100) | Mapeado?  (igor) 
+  - ✅ ![100%](https://progress-bar.dev/100) | Testado?  
+- [ ] Prorede
+  - ✅ ![100%](https://progress-bar.dev/100) | Integrado  
+  - ✅ ![100%](https://progress-bar.dev/100) | Ambiente - Produção  
+  - ✅ ![100%](https://progress-bar.dev/100) | Ambiente - Dev       
+  - ✅ ![100%](https://progress-bar.dev/100) | Mapeado?  (lf) 
+  - ❌ ![90%](https://progress-bar.dev/90) | Testado?  
+- [ ] Crednet
+  - ✅ ![100%](https://progress-bar.dev/100) | Integrado 
+  - ✅ ![100%](https://progress-bar.dev/100) | Ambiente - Produção  
+  - ✅ ![100%](https://progress-bar.dev/100) | Ambiente - Dev       
+  - ✅ ![100%](https://progress-bar.dev/100) | Mapeado?  (bruno) 
+  - ❌ ![50%](https://progress-bar.dev/50) | Testado?  
+- [ ] Concentre
+  - ✅ ![100%](https://progress-bar.dev/100) | Integrado 
+  - ✅ ![100%](https://progress-bar.dev/100) | Ambiente - Produção  
+  - ✅ ![100%](https://progress-bar.dev/100) | Ambiente - Dev       
+  - ❌ ![90%](https://progress-bar.dev/90) | Mapeado?  (lf) 
+  - ❌ ![0%](https://progress-bar.dev/0) | Testado?  
+- [ ] Infomais
+  - ✅ ![100%](https://progress-bar.dev/100) | Integrado  
+  - ✅ ![100%](https://progress-bar.dev/100) | Ambiente - Produção  
+  - ✅ ![100%](https://progress-bar.dev/100) | Ambiente - Dev       
+  - ❌ ![0%](https://progress-bar.dev/0) |  Mapeado? (bruno)
+  - ❌ ![0%](https://progress-bar.dev/0) | Testado? 
+- [ ] Relato
+  - ✅ ![100%](https://progress-bar.dev/100) | Integrado  
+  - ✅ ![100%](https://progress-bar.dev/100) | Ambiente - Produção  
+  - ✅ ![100%](https://progress-bar.dev/100) | Ambiente - Dev       
+  - ❌ ![0%](https://progress-bar.dev/0) | Mapeado? (lf) 
+  - ❌ ![0%](https://progress-bar.dev/0) | Testado? 
 
+### Overview do desenvolvimento da Api Serasa
 
+#### Entidades do banco de dados
 
-<!-- PROJECT LOGO -->
-<br />
-<p align="center">
-  <a href="https://github.com/othneildrew/Best-README-Template">
-    <img src="images/logo.png" alt="Logo" width="80" height="80">
-  </a>
+- [x] Replicação 
+  - ✅ ![100%](https://progress-bar.dev/100) | Projetado                     
+  - ✅ ![100%](https://progress-bar.dev/100) |  Testes                        
+- [x] Segurança 
+  - ✅ ![100%](https://progress-bar.dev/100) | Criptografia de Senha         
+  - ✅ ![100%](https://progress-bar.dev/100) | Testes                  
+ 
+  - #### Processo de Autenticação do Site 
+    - ![Auth process 1](https://github.com/delcantao/Serasa/blob/master/img/Auth%20process%20site.PNG)
+  - ####  Processo de Autenticação da API
+    - ![Auth process 2](https://github.com/delcantao/Serasa/blob/master/img/Auth%20process%20api.PNG)
 
-  <h3 align="center">Best-README-Template</h3>
+- [x] Entity Frameworks
+  - ✅ ![100%](https://progress-bar.dev/100) | [dbo].[Billet]                
+  - ✅ ![100%](https://progress-bar.dev/100) | [dbo].[Card]                
+  - ✅ ![100%](https://progress-bar.dev/100) | [dbo].[Client]                
+  - ✅ ![100%](https://progress-bar.dev/100) | [dbo].[CustomPrices]                
+  - ✅ ![100%](https://progress-bar.dev/100) | [dbo].[Error]                 
+  - ✅ ![100%](https://progress-bar.dev/100) | [dbo].[Extract]                 
+  - ✅ ![100%](https://progress-bar.dev/100) | [dbo].[ExtractSent]                 
+  - ✅ ![100%](https://progress-bar.dev/100) | [dbo].[Plans]                 
+  - ✅ ![100%](https://progress-bar.dev/100) | [dbo].[Prices]                
+  - ✅ ![100%](https://progress-bar.dev/100) | [dbo].[Purchase]                
+  - ✅ ![100%](https://progress-bar.dev/100) | [dbo].[Security]                
+  - ✅ ![100%](https://progress-bar.dev/100) | [dbo].[Usage]                 
+  - ✅ ![100%](https://progress-bar.dev/100) | [dbo].[User]                
+  - ✅ ![100%](https://progress-bar.dev/100) | [dbo].[Voucher]                 
 
-  <p align="center">
-    An awesome README template to jumpstart your projects!
-    <br />
-    <a href="https://github.com/othneildrew/Best-README-Template"><strong>Explore the docs »</strong></a>
-    <br />
-    <br />
-    <a href="https://github.com/othneildrew/Best-README-Template">View Demo</a>
-    ·
-    <a href="https://github.com/othneildrew/Best-README-Template/issues">Report Bug</a>
-    ·
-    <a href="https://github.com/othneildrew/Best-README-Template/issues">Request Feature</a>
-  </p>
-</p>
+#### Middlewares de Segurança da Api
 
+- [x] Autenticação
+  - ✅ ![100%](https://progress-bar.dev/100) | Projetado                     
+  - ✅ ![100%](https://progress-bar.dev/100) | Ligação com o banco de dados  
+  - ✅ ![100%](https://progress-bar.dev/100) | Desenvolvimento               
+  - ✅ ![100%](https://progress-bar.dev/100) |  Testes                        
 
+- [ ] Autorização
+  - ✅ ![100%](https://progress-bar.dev/100) |  Projetado                     
+  - ✅ ![90%](https://progress-bar.dev/90) | Desenvolvimento               
+  - ❌ ![0%](https://progress-bar.dev/0) |  Testes                        
 
-<!-- TABLE OF CONTENTS -->
-<details open="open">
-  <summary>Table of Contents</summary>
-  <ol>
-    <li>
-      <a href="#about-the-project">About The Project</a>
-      <ul>
-        <li><a href="#built-with">Built With</a></li>
-      </ul>
-    </li>
-    <li>
-      <a href="#getting-started">Getting Started</a>
-      <ul>
-        <li><a href="#prerequisites">Prerequisites</a></li>
-        <li><a href="#installation">Installation</a></li>
-      </ul>
-    </li>
-    <li><a href="#usage">Usage</a></li>
-    <li><a href="#roadmap">Roadmap</a></li>
-    <li><a href="#contributing">Contributing</a></li>
-    <li><a href="#license">License</a></li>
-    <li><a href="#contact">Contact</a></li>
-    <li><a href="#acknowledgements">Acknowledgements</a></li>
-  </ol>
-</details>
+#### Controllers de Serviços de Background da Api 
 
+- [ ] Cadastro de Cliente
+  - ✅ ![100%](https://progress-bar.dev/100) | Projetado                     
+  - ✅ ![100%](https://progress-bar.dev/100) | Ligação com o banco de dados  
+  - ❌ ![40%](https://progress-bar.dev/40) | Desenvolvimento               
+  - ❌ ![100%](https://progress-bar.dev/100) | [get]  Listar Clientes        
+  - ❌ ![100%](https://progress-bar.dev/100) | [post] Registrar Cliente      
+  - ❌ ![0%](https://progress-bar.dev/0) | [patch] Atualizar Cliente     
+  - ❌ ![0%](https://progress-bar.dev/0) | [delete] Excluir Cliente      
+  - ❌ ![0%](https://progress-bar.dev/0) | Testes                        
 
+- [ ] Cadastro de Usuários
+  - ✅ ![100%](https://progress-bar.dev/100) | Projetado                     
+  - ✅ ![100%](https://progress-bar.dev/100) | Ligação com o banco de dados  
+  - ❌ ![40%](https://progress-bar.dev/40) | Desenvolvimento               
+  - ❌ ![50%](https://progress-bar.dev/50) | [get]  Listar Usuários        
+  - ❌ ![20%](https://progress-bar.dev/20) | [post] Registrar Usuário      
+  - ❌ ![10%](https://progress-bar.dev/10) | [patch] Atualizar Usuário     
+  - ❌ ![0%](https://progress-bar.dev/0) | [delete] Excluir Usuário      
+  - ❌ ![0%](https://progress-bar.dev/0) | Testes                        
 
-<!-- ABOUT THE PROJECT -->
-## About The Project
+- [ ] Cadastro de Cartões
+  - ❌ ![0%](https://progress-bar.dev/0) | Projetado                     
+  - ✅ ![100%](https://progress-bar.dev/0) | Ligação com o banco de dados  
+  - ❌ ![0%](https://progress-bar.dev/0) | [get]  Listar Cartões            
+  - ❌ ![0%](https://progress-bar.dev/0) | [post] Salvar Cartão            
+  - ❌ ![0%](https://progress-bar.dev/0) | Testes                        
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
+- [ ] Geração de Boletos
+  - ❌ ![0%](https://progress-bar.dev/0) | Projetado                     
+  - ✅ ![100%](https://progress-bar.dev/0) | Ligação com o banco de dados  
+  - ❌ ![0%](https://progress-bar.dev/0) | [get]  Listar Boletos            
+  - ❌ ![0%](https://progress-bar.dev/0) | [post] Gerar Boleto            
+  - ❌ ![0%](https://progress-bar.dev/0) | Testes                        
 
-There are many great README templates available on GitHub, however, I didn't find one that really suit my needs so I created this enhanced one. I want to create a README template so amazing that it'll be the last one you ever need -- I think this is it.
+- [ ] Endpoint de Preços
+  - ✅ ![100%](https://progress-bar.dev/100) | Projetado                     
+  - ❌ ![0%](https://progress-bar.dev/0) | Ligação com o banco de dados  
+  - ❌ ![0%](https://progress-bar.dev/0) | [get] Listar Preços            
+  - ❌ ![0%](https://progress-bar.dev/0) | Testes                        
+ 
+- [ ] Compras
+  - ❌ ![0%](https://progress-bar.dev/0) | Projetado                       
+  - ✅ ![100%](https://progress-bar.dev/0) | Ligação com o banco de dados    
+  - ❌ ![0%](https://progress-bar.dev/0) | [get] Listar Compras            
+  - ❌ ![0%](https://progress-bar.dev/0) |  [post] Registrar Compra         
+  - ❌ ![0%](https://progress-bar.dev/0) | Testes                          
+  
+- [ ] Uso
+  - ❌ ![0%](https://progress-bar.dev/0) | Projetado                                     
+  - ✅ ![100%](https://progress-bar.dev/100) | Ligação com o banco de dados                  
+  - ❌ ![0%](https://progress-bar.dev/0) |  [get] Listar Uso (Relatório)                  
+  - ❌ ![0%](https://progress-bar.dev/0) | Testes                                        
 
-Here's why:
-* Your time should be focused on creating something amazing. A project that solves a problem and helps others
-* You shouldn't be doing the same tasks over and over like creating a README from scratch
-* You should element DRY principles to the rest of your life :smile:
+- [ ] Erro
+  - ❌ ![0%](https://progress-bar.dev/0) | Projetado                                     
+  - ✅ ![100%](https://progress-bar.dev/100) | Ligação com o banco de dados                  
+  - ❌ ![0%](https://progress-bar.dev/0) |  [post] Registrar Erro                         
+  - ❌ ![0%](https://progress-bar.dev/0) | Testes                                        
+ 
+- [ ] Cupons
+  - ❌ ![0%](https://progress-bar.dev/0) | Projetado                                     
+  - ✅ ![100%](https://progress-bar.dev/100) | Ligação com o banco de dados                  
+  - ❌ ![0%](https://progress-bar.dev/0) | Testes                                        
+  - ❌ ![0%](https://progress-bar.dev/0) |  [get] Listar Cupom                            
+  - ❌ ![0%](https://progress-bar.dev/0) |  [post] Registrar Cupom                        
+  - ❌ ![0%](https://progress-bar.dev/0) |  [delete] Excluir Cupom                        
+  - ❌ ![0%](https://progress-bar.dev/0) |  [patch] Atualizar Cupom                        
 
-Of course, no one template will serve all projects since your needs may be different. So I'll be adding more in the near future. You may also suggest changes by forking this repo and creating a pull request or opening an issue. Thanks to all the people have have contributed to expanding this template!
+#### Controllers de Serviços Expostos - (Consultas) 
+- [ ] Consulta CPF
+  - ✅ ![100%](https://progress-bar.dev/100) | Projetado                     
+  - ✅ ![100%](https://progress-bar.dev/100) | Ligação com o banco de dados  
+  - ✅ ![20%](https://progress-bar.dev/20) | Desenvolvimento               
+  - ❌ ![0%](https://progress-bar.dev/0) | Testes                        
 
-A list of commonly used resources that I find helpful are listed in the acknowledgements.
+- [ ] Consulta CNPJ
+  - ✅ ![100%](https://progress-bar.dev/100) | Projetado                     
+  - ✅ ![100%](https://progress-bar.dev/100) | Ligação com o banco de dados  
+  - ❌ ![20%](https://progress-bar.dev/20) | Desenvolvimento               
+  - ❌ ![0%](https://progress-bar.dev/0) | Testes                        
 
-### Built With
+- [ ] Monitoramento CNPJ
+  - ❌ ![0%](https://progress-bar.dev/0) | Projetado                     
+  - ✅ ![100%](https://progress-bar.dev/100) | Ligação com o banco de dados                  
+  - ❌ ![0%](https://progress-bar.dev/0) | Desenvolvimento               
+  - ❌ ![0%](https://progress-bar.dev/0) | Testes                        
 
-This section should list any major frameworks that you built your project using. Leave any add-ons/plugins for the acknowledgements section. Here are a few examples.
-* [Bootstrap](https://getbootstrap.com)
-* [JQuery](https://jquery.com)
-* [Laravel](https://laravel.com)
+- [ ] Cheques
+  - ❌ ![0%](https://progress-bar.dev/0) | Projetado                     
+  - ✅ ![100%](https://progress-bar.dev/100) | Ligação com o banco de dados                  
+  - ❌ ![0%](https://progress-bar.dev/0) | Desenvolvimento               
+  - ❌ ![0%](https://progress-bar.dev/0) | Testes                        
 
+- [ ] Pendências
+  - ❌ ![0%](https://progress-bar.dev/0) | Projetado                     
+  - ✅ ![100%](https://progress-bar.dev/100) | Ligação com o banco de dados                  
+  - ❌ ![0%](https://progress-bar.dev/0) | Desenvolvimento               
+  - ❌ ![0%](https://progress-bar.dev/0) | Testes                        
 
+- [ ] Negativação/Desnegativação
+  - ❌ ![0%](https://progress-bar.dev/0) | Projetado                     
+  - ✅ ![100%](https://progress-bar.dev/100) | Ligação com o banco de dados                  
+  - ❌ ![0%](https://progress-bar.dev/0) | Desenvolvimento               
+  - ❌ ![0%](https://progress-bar.dev/0) | Testes                        
+  - ❌ ![0%](https://progress-bar.dev/0) |  [post] Registrar Negativação                        
+  - ❌ ![0%](https://progress-bar.dev/0) |  [delete] Registrar Desnegativação                        
 
-<!-- GETTING STARTED -->
-## Getting Started
+- [ ] Telefones por CPF/CNPJ
+  - ❌ ![0%](https://progress-bar.dev/0) | Projetado                     
+  - ✅ ![100%](https://progress-bar.dev/100) | Ligação com o banco de dados                  
+  - ❌ ![0%](https://progress-bar.dev/0) | Desenvolvimento               
+  - ❌ ![0%](https://progress-bar.dev/0) |  Testes                        
 
-This is an example of how you may give instructions on setting up your project locally.
-To get a local copy up and running follow these simple example steps.
+- [ ] Endereço por CPF/CNPJ
+  - ❌ ![0%](https://progress-bar.dev/0) | Projetado                     
+  - ✅ ![100%](https://progress-bar.dev/100) | Ligação com o banco de dados                  
+  - ❌ ![0%](https://progress-bar.dev/0) | Desenvolvimento               
+  - ❌ ![0%](https://progress-bar.dev/0) |  Testes                        
 
-### Prerequisites
-
-This is an example of how to list things you need to use the software and how to install them.
-* npm
-  ```sh
-  npm install npm@latest -g
-  ```
-
-### Installation
-
-1. Get a free API Key at [https://example.com](https://example.com)
-2. Clone the repo
-   ```sh
-   git clone https://github.com/your_username_/Project-Name.git
-   ```
-3. Install NPM packages
-   ```sh
-   npm install
-   ```
-4. Enter your API in `config.js`
-   ```JS
-   const API_KEY = 'ENTER YOUR API';
-   ```
-
-
-
-<!-- USAGE EXAMPLES -->
-## Usage
-
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
-
-_For more examples, please refer to the [Documentation](https://example.com)_
-
-
-
-<!-- ROADMAP -->
-## Roadmap
-
-See the [open issues](https://github.com/othneildrew/Best-README-Template/issues) for a list of proposed features (and known issues).
-
-
-
-<!-- CONTRIBUTING -->
-## Contributing
-
-Contributions are what make the open source community such an amazing place to be learn, inspire, and create. Any contributions you make are **greatly appreciated**.
-
-1. Fork the Project
-2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the Branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
-
-
-
-<!-- LICENSE -->
-## License
-
-Distributed under the MIT License. See `LICENSE` for more information.
-
-
-
-<!-- CONTACT -->
-## Contact
-
-Your Name - [@your_twitter](https://twitter.com/your_username) - email@example.com
-
-Project Link: [https://github.com/your_username/repo_name](https://github.com/your_username/repo_name)
-
-
-
-<!-- ACKNOWLEDGEMENTS -->
-## Acknowledgements
-* [GitHub Emoji Cheat Sheet](https://www.webpagefx.com/tools/emoji-cheat-sheet)
-* [Img Shields](https://shields.io)
-* [Choose an Open Source License](https://choosealicense.com)
-* [GitHub Pages](https://pages.github.com)
-* [Animate.css](https://daneden.github.io/animate.css)
-* [Loaders.css](https://connoratherton.com/loaders)
-* [Slick Carousel](https://kenwheeler.github.io/slick)
-* [Smooth Scroll](https://github.com/cferdinandi/smooth-scroll)
-* [Sticky Kit](http://leafo.net/sticky-kit)
-* [JVectorMap](http://jvectormap.com)
-* [Font Awesome](https://fontawesome.com)
-
-
-
-
-
-<!-- MARKDOWN LINKS & IMAGES -->
-<!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[contributors-shield]: https://img.shields.io/github/contributors/othneildrew/Best-README-Template.svg?style=for-the-badge
-[contributors-url]: https://github.com/othneildrew/Best-README-Template/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/othneildrew/Best-README-Template.svg?style=for-the-badge
-[forks-url]: https://github.com/othneildrew/Best-README-Template/network/members
-[stars-shield]: https://img.shields.io/github/stars/othneildrew/Best-README-Template.svg?style=for-the-badge
-[stars-url]: https://github.com/othneildrew/Best-README-Template/stargazers
-[issues-shield]: https://img.shields.io/github/issues/othneildrew/Best-README-Template.svg?style=for-the-badge
-[issues-url]: https://github.com/othneildrew/Best-README-Template/issues
-[license-shield]: https://img.shields.io/github/license/othneildrew/Best-README-Template.svg?style=for-the-badge
-[license-url]: https://github.com/othneildrew/Best-README-Template/blob/master/LICENSE.txt
-[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
-[linkedin-url]: https://linkedin.com/in/othneildrew
-[product-screenshot]: images/screenshot.png
+- [ ] Endereço por telefone
+  - ❌ ![0%](https://progress-bar.dev/0) | Projetado                     
+  - ✅ ![100%](https://progress-bar.dev/100) | Ligação com o banco de dados                  
+  - ❌ ![0%](https://progress-bar.dev/0) | Desenvolvimento               
+  - ❌ ![0%](https://progress-bar.dev/0) |  Testes                        

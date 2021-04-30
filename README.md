@@ -53,9 +53,9 @@
   - ✅ ![100%](https://progress-bar.dev/100) | Testes                  
  
   - #### Processo de Autenticação do Site 
-    - ![Auth process 1](https://github.com/delcantao/Serasa/blob/master/img/Auth%20process%20site.PNG)
+    - ![Auth process 1](https://github.com/delcantao/serasa-evolucao/blob/master/images/Auth%20process%20site.PNG)
   - ####  Processo de Autenticação da API
-    - ![Auth process 2](https://github.com/delcantao/Serasa/blob/master/img/Auth%20process%20api.PNG)
+    - ![Auth process 2](https://github.com/delcantao/serasa-evolucao/blob/master/images/Auth%20process%20api.PNG)
 
 - [x] Entity Frameworks
   - ✅ ![100%](https://progress-bar.dev/100) | [dbo].[Billet]                
